@@ -1,13 +1,24 @@
 from django.contrib.auth import get_user_model
 from rest_framework import serializers
 
-from .models.mango import Mango
+from .models.director import Director
+from .models.film import Film
 from .models.user import User
 
-class MangoSerializer(serializers.ModelSerializer):
+
+class FilmSerializer(serializers.ModelSerializer):
+
     class Meta:
-        model = Mango
-        fields = ('id', 'name', 'color', 'ripe', 'owner')
+        model = Film
+        fields = '__all__'
+
+
+class DirectorSerializer(serializers.ModelSerializer):
+    films = FilmSerializer(many=True)
+
+    class Meta:
+        model = Director
+        fields = '__all__'
 
 class UserSerializer(serializers.ModelSerializer):
     # This model serializer will be used for User creation
