@@ -14,7 +14,7 @@ class FilmSerializer(serializers.ModelSerializer):
 
 
 class DirectorSerializer(serializers.ModelSerializer):
-    films = FilmSerializer(many=True)
+    films = FilmSerializer(many=True, read_only=True)
 
     class Meta:
         model = Director
