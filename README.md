@@ -6,7 +6,7 @@
 
 ### Project Description
 
-#### directorsUncut is an online database where you can keep track of your favorite directors and movies. The application will feature information on each director and details about their films. The site is authenticated, which allows users to access Director and Film information. Users will also be able to add, update and delete directors and films from the list.
+directorsUncut is an online database where you can keep track of your favorite directors and movies. The application will feature information on each director and details about their films. The site is authenticated, which allows users to access Director and Film information. Users will also be able to add, update and delete directors and films from the list.
 
 ### Links
 
@@ -17,7 +17,7 @@
 
 ### Planning
 
-#### I started the project by brainstorming multiple wireframes and an entity relationship diagram. I planned to stick to those wireframes as closely as I could. I chose to build out the backend with Django and the front end with React. My plan was to hit my goals as a user, identified in the user stories.
+I started the project by brainstorming multiple wireframes and an entity relationship diagram. I planned to stick to those wireframes as closely as I could. I chose to build out the backend with Django and the front end with React. My plan was to hit my goals as a user, identified in the user stories.
 
 
 
@@ -73,3 +73,4 @@
 
  * Build out resources with functioning CRUD elements
  * Build out Home page
+ * Add Msg Alerts as soon as each form is submitted
