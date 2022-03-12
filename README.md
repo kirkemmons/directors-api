@@ -72,3 +72,4 @@
 ### Post MVP/Stretch Goals
 
  * Build out resources with functioning CRUD elements
+ * Build out Home page
