@@ -23,8 +23,8 @@ I started the project by brainstorming multiple wireframes and an entity relatio
 
 ### Wireframes
 
-![Sign Up Page](https://i.imgur.com/7eJuJRn.png)
-![Directors](https://i.imgur.com/59Ie5Gv.png)
+![Sign Up Page](https://i.imgur.com/rJAmieO.png)
+![Director Page](https://i.imgur.com/fezcS1j.png)
 
 ### ERD
 
@@ -71,6 +71,4 @@ I started the project by brainstorming multiple wireframes and an entity relatio
 
 ### Post MVP/Stretch Goals
 
- * Build out resources with functioning CRUD elements
  * Build out Home page
- * Add Msg Alerts as soon as each form is submitted
